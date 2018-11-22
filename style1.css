@@ -64,11 +64,13 @@ body{
     width: 45%;
     font-size: 18px;
     border-radius: 25px;
+    margin-top: 40px;
   }
   .loginbox input[type=button]:hover{
     cursor: pointer;
     background: #ffc107;
     color:white;
+    
   }
   .loginbox a{
     text-decoration: none;
@@ -85,7 +87,7 @@ float: left;
 .but2{
 float: right;
 }
-.polovi .pol p input{
-position: relative;
-padding: 20px;
+.sex input {
+  display: inline-block;
+  width: 60%;
 }
