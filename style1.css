@@ -55,7 +55,7 @@ body{
   
   
   }
-  .loginbox input[type="button"]{
+  .loginbox input[type="submit"], .loginbox input[type="reset"]{
     border:none;
     outline: none;
     background-color: rgb(160, 41, 41);
@@ -66,7 +66,7 @@ body{
     border-radius: 25px;
     margin-top: 40px;
   }
-  .loginbox input[type=button]:hover{
+  .loginbox input[type="submit"]:hover, .loginbox input[type="reset"]:hover{
     cursor: pointer;
     background: #ffc107;
     color:white;
